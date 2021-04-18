@@ -6,8 +6,8 @@ the URL http://localhost:8080/swagger-ui.html to test your Apis.
 
 Database:
 --------
-* Firstly create schema named quickstart in postgres Db.
-* create users table with primary key using below queries:
+* Firstly create schema named **quickstart** in postgres Db.
+* create **users** table with primary key using below queries:
 CREATE TABLE quickstart.users (
 	user_id bigint NULL,
 	firstname varchar NULL,
@@ -16,7 +16,7 @@ CREATE TABLE quickstart.users (
 	"password" varchar NULL
 );
 ALTER TABLE quickstart.users ADD CONSTRAINT users_pk PRIMARY KEY (user_id);
-* create a sequence named "sequence_id" in postgres Db.
+* create a sequence named **sequence_id** in postgres Db.
 Note: Change the credentials of postgresDb accordingly in application.properties.
 
 Finally, if you thing some other common code need to be added to this repository then don't wait make a pull request :)  
