@@ -18,5 +18,7 @@ CREATE TABLE quickstart.users (
 ALTER TABLE quickstart.users ADD CONSTRAINT users_pk PRIMARY KEY (user_id);
 * create a sequence named **sequence_id** in postgres Db.
 Note: Change the credentials of postgresDb accordingly in application.properties.
+Hosted this springboot application in heroku.
+swagger-url: https://springbootquickstart.herokuapp.com/swagger-ui.html 
 
 Finally, if you thing some other common code need to be added to this repository then don't wait make a pull request :)  
